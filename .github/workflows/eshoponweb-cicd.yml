@@ -77,7 +77,6 @@ jobs:
 
       # Publish website to Azure App Service (WebApp)
       - name: Publish Website to WebApp
-        if: false #Disable step due to comment above
         uses: Azure/webapps-deploy@v3
         with:
           type: ZIP
